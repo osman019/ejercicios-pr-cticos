@@ -1,0 +1,42 @@
+body {
+    width: 30vw;
+    margin: 0px;
+    padding: 0px;
+    height: 20vh;
+    box-sizing: border-box;
+}
+.container {
+    margin: 2vh, 2vh;
+    padding: 1vw;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+   
+}
+
+.container a {
+    text-decoration: none;
+    padding: 3vh;
+    color: #000;
+    font-size: 3em;
+    text-align: center; 
+    line-height: 3vw;
+    margin:  1vh;
+    border-radius: 0.5vw;
+    background-color: #f1f1f1;
+    transition:  0.6s ;
+    box-shadow: 0.3vw 0.3vw 0.3vw rgb(255, 242, 0);
+  
+    
+}
+.dragon{width: 9vw;}
+.pizza{
+    width: 12vw;
+}
+.dona{
+    width: 12vw;
+}
+.galleta{
+    width: 12vw;
+}
